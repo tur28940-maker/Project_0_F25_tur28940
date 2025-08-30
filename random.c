@@ -5,7 +5,11 @@
 #include <time.h>
 
 char* rand_string(size_t len) {
-    return NULL;
 
+    char *s = malloc((len + 1) * sizeof(char));
+    if(s == NULL) {
+        printf("Memory Not Available");
+        return NULL;
+    }
 }
 
