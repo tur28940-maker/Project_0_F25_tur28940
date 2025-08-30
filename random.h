@@ -5,6 +5,6 @@
 
 #include <stddef.h>
 
-void rand_string(char *s, size_t size);
+char * rand_string(char *s, size_t size);
 
 #endif
